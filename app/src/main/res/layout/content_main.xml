@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <TextView
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:id="@+id/tv_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="dddddddd"
+        android:text="欢迎来到白云城"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.ling.flowlayout.FlowLayout
+
+        android:id="@+id/flowlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_test" >
+        <TextView
+            style="@style/mystyle"
+            android:text="大富科技爱豆世纪爱打架爱多少 1"
+           />
+        <TextView
+            android:text="ASDADSSDS的水电费水电费舒服舒服舒服舒服 2"
+            style="@style/mystyle"/>
+        <TextView
+            android:text="水电费功夫管3"
+            style="@style/mystyle"/>
+        <TextView
+            android:text="是对方是否4"
+            style="@style/mystyle"/>
+        <TextView
+            android:text="打算电饭锅电饭锅电饭锅5"
+            style="@style/mystyle"/>
+        <TextView
+            android:text="似懂非懂法规的功夫的风格的发生过的功夫的双方各6"
+            style="@style/mystyle"/>
+        <TextView
+            android:text="按时大大大的孤独感更好恢复规划法国恢复规划的7"
+            style="@style/mystyle"/>
+        <TextView
+            android:text="第三方工时费大概8"
+            style="@style/mystyle"/>
+        <TextView
+            android:text="打个哈哈9"
+            style="@style/mystyle"/>
+        <TextView
+            android:text="SDASGFDFDFASDFASDFDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF10"
+            style="@style/mystyle"/>
+        <TextView
+        android:text="SDASGFDFDFASDFASDFDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF11"
+        style="@style/mystyle"/>
+        <TextView
+            android:text="ASDADS 12"
+            style="@style/mystyle"/>
+        <TextView
+            android:text="ASDADSSDS的水电费水电费舒服舒服舒服舒服13"
+            style="@style/mystyle"/>
+
+    </com.ling.flowlayout.FlowLayout>
+
+    <com.ling.flowlayout.FlowLayout3
+        android:layout_marginTop="20dp"
+        android:id="@+id/flowlayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/flowlayout" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
