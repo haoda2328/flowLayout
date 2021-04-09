@@ -112,7 +112,7 @@ public class FlowLayout3 extends RelativeLayout {
         } else {
             width = getChildAt(0).getMeasuredHeight();
         }
-        switch (modeHeight) {
+        switch (modeWidht) {
             case MeasureSpec.AT_MOST:
                 break;
             case MeasureSpec.UNSPECIFIED:
@@ -121,7 +121,7 @@ public class FlowLayout3 extends RelativeLayout {
                 width = selftWidth;
                 break;
         }
-        switch (height) {
+        switch (modeHeight) {
             case MeasureSpec.AT_MOST:
                 break;
             case MeasureSpec.UNSPECIFIED:

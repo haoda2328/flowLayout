@@ -2,7 +2,7 @@
 <resources>
 
     <style name="mystyle">
-        <item name="android:padding">5dp</item>
+        <item name="android:padding">10dp</item>
         <item name="android:layout_margin">20px</item>
        <item name="android:textColor">@color/black</item>
         <item name="android:background">@drawable/mygb</item>

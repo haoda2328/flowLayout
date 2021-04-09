@@ -67,17 +67,11 @@
 
     </com.ling.flowlayout.FlowLayout>
 
-    <com.ling.flowlayout.FlowLayout3
-        android:padding="50px"
-        android:layout_marginTop="20dp"
-        android:id="@+id/flowlayout3"
+    <com.ling.flowlayout.MyFlowLayout
+        android:id="@+id/flow_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/black"
+        android:background="@color/teal_700"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/flowlayout" />
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

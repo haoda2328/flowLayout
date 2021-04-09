@@ -74,6 +74,7 @@ public class FlowLayout extends RelativeLayout {
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
 
+        if (alls.size()==0||alls.get(0).size()==0) return;
         int left = 0;
         int top = 0;
         for (int i = 0; i < alls.size(); i++) {
