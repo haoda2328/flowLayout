@@ -23,6 +23,9 @@ class MyFlowLayout(context: Context?, attrs: AttributeSet?) : RelativeLayout(con
      */
     private var lines: ArrayList<View?> = ArrayList()
 
+    /**
+     * 子类布局的 LayoutParams
+     */
     private var params: RelativeLayout.LayoutParams? = null
 
     /**

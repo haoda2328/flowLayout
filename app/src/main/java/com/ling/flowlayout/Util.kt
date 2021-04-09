@@ -27,6 +27,13 @@ object Util {
         strs.add("抗金英雄郭靖")
         strs.add("峨眉掌门郭襄")
         strs.add("尹志平真英雄也")
+        strs.add("张无忌乾坤大罗移")
+        strs.add("太极张三丰")
+        strs.add("全真丘处机")
+        strs.add("大师鸠摩智")
+        strs.add("凌波微步段誉")
+        strs.add("灵鹫宫虚竹")
+        strs.add("丐帮前任帮主萧锋")
         return strs
     }
 }
